@@ -15,7 +15,7 @@ print("2. Rules")
 print("3. Exit")
 print("------------------------------")
 # Asks user which function they would like to perform.
-task = input("Choose an action: ")
+task = int(input("Choose an action: "))
 
 # If user picks task 2. Rules
 if task == 2:

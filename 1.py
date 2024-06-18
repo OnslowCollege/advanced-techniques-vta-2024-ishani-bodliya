@@ -6,16 +6,14 @@ Date: DATE
 """
 
 # Enter your code here
-# Introduces program and displays all valid tasks.
-print("""
-    Welcome to the Science Quiz!
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    1. Play
-    2. Rules
-    3. Exit
-    ------------------------------
-    """)
-
+# Introduces program.
+print("Welcome to the Science Quiz!")
+print("------------------------------")
+# Prints valid tasks for users.
+print("1. Play")
+print("2. Rules")
+print("3. Exit")
+print("------------------------------")
 # Asks user which function they would like to perform.
 task = int(input("Choose an action: "))
 

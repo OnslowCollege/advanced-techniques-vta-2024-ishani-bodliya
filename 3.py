@@ -5,30 +5,29 @@ Created by: NAME
 Date: DATE
 """
 
-valid_tasks: ["E", "P", "R", "Exit", "Play", "Rules"]
-
 # Enter your code here
-# Introduces Program
+# Introduces program.
 print("Welcome to the Science Quiz!")
 print("------------------------------")
-# Prints Tasks for user to pick from
-print("   Exit     Play     Rules   ")
+# Prints valid tasks for users.
+print("1. Play")
+print("2. Rules")
+print("3. Exit")
 print("------------------------------")
+# Asks user which function they would like to perform.
+task = int(input("Choose an action: "))
 
-# Asks user which task they would like to choose
-task = input("Choose an action: ")
+# If user picks task 2. Rules
+if task == 2:
+    print("--- RULES ---")
+    # Prints Rules.
 
-# Checks if answer is valid
-if task in valid_tasks:
-    # If user chose to see the Rules
-    if task.upper() == "R" or "Rules":
-        # Print rules
-        print("--- RULES ---")
-    elif task.upper() == "P" or "Play":
-        # Asks which difficulty the player wishes to pick
-        print("--- PLAY ---")
-    else:
-        # Ends program
-        pass
-else:
-    print(" That is an invalid answer, Try agian")
+# If user picks task 1. Play
+elif task == 1:
+    print("--- PLAY ---")
+    # Asks user for difficulty level they wish to proceed with.
+
+# If user picks task 3. Exit
+elif task == 3:
+    # Ends Program
+    print("--- GOODBYE! ---")

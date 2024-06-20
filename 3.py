@@ -35,3 +35,6 @@ while running:
         # Ends Program
         print("--- GOODBYE! ---")
         running = False
+    else:
+        print("That is an invalid task, try again.")
+        print(" ")

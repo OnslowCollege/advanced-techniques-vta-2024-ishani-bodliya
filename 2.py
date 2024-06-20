@@ -6,28 +6,40 @@ Date: DATE
 """
 
 # Enter your code here
-# Introduces program.
-print("Welcome to the Science Quiz!")
-print("------------------------------")
-# Prints valid tasks for users.
-print("1. Play")
-print("2. Rules")
-print("3. Exit")
-print("------------------------------")
-# Asks user which function they would like to perform.
-task = int(input("Choose an action: "))
+# Allows program to repeat itself until user types a valid answer.
+running: bool = True
+while running:
+    # Introduces program.
+    print("Welcome to the Science Quiz!")
+    print("---------------------------")
+    # Prints valid tasks for users.
+    print("  Exit    Play    Rules  ")
+    print("---------------------------")
+    # Asks user which function they would like to perform.
+    task = input("Choose an action (E, P, R): ")
 
-# If user picks task 2. Rules
-if task == 2:
-    print("--- RULES ---")
-    # Prints Rules.
+    # If user picks task 2. Rules
+    if task.upper() == "R":
+        running = False
+        print("--- RULES ---")
+        # Prints Rules.
+        print(""""
+            - You must answer every question.
+            - You can only use 1 item per question (e.g hints, points, etc).
+            - Shop accessibility is after every question.
+            """)
 
-# If user picks task 1. Play
-elif task == 1:
-    print("--- PLAY ---")
-    # Asks user for difficulty level they wish to proceed with.
+    # If user picks task 1. Play
+    elif task.upper() == "P":
+        running = False
+        print("--- PLAY ---")
+        # Asks user for difficulty level they wish to proceed with.
 
-# If user picks task 3. Exit
-elif task == 3:
-    # Ends Program
-    print("--- GOODBYE! ---")
+    # If user picks task 3. Exit
+    elif task.upper() == "E":
+        # Ends Program
+        print("--- GOODBYE! ---")
+        running = False
+    else:
+        print("That is an invalid task, try again.")
+        print(" ")

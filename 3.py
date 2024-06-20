@@ -7,18 +7,16 @@ Date: DATE
 
 # Enter your code here
 # Introduces program.
-# Allows program to repeat itself until user 
+# Allows program to repeat itself until user types a valid answer.
 running: bool = True
 while running:
     print("Welcome to the Science Quiz!")
-    print("------------------------------")
+    print("---------------------------")
     # Prints valid tasks for users.
-    print("1. Play")
-    print("2. Rules")
-    print("3. Exit")
-    print("------------------------------")
+    print("  Exit    Play    Rules  ")
+    print("---------------------------")
     # Asks user which function they would like to perform.
-    task = int(input("Choose an action: "))
+    task = int(input("Choose an action (E, P, R): "))
 
     # If user picks task 2. Rules
     if task == 2:

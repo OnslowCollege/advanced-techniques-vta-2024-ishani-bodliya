@@ -20,11 +20,13 @@ while running:
 
     # If user picks task 2. Rules
     if task.upper() == "R":
+        running = False
         print("--- RULES ---")
         # Prints Rules.
 
     # If user picks task 1. Play
     elif task.upper() == "P":
+        running = False
         print("--- PLAY ---")
         # Asks user for difficulty level they wish to proceed with.
 

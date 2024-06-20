@@ -16,20 +16,20 @@ while running:
     print("  Exit    Play    Rules  ")
     print("---------------------------")
     # Asks user which function they would like to perform.
-    task = int(input("Choose an action (E, P, R): "))
+    task = input("Choose an action (E, P, R): ").upper
 
     # If user picks task 2. Rules
-    if task == 2:
+    if task == "R":
         print("--- RULES ---")
         # Prints Rules.
 
     # If user picks task 1. Play
-    elif task == 1:
+    elif task == "P":
         print("--- PLAY ---")
         # Asks user for difficulty level they wish to proceed with.
 
     # If user picks task 3. Exit
-    elif task == 3:
+    elif task == "E":
         # Ends Program
         print("--- GOODBYE! ---")
         running = False

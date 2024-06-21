@@ -29,6 +29,7 @@ while running:
         running = False
         print("--- PLAY ---")
         # Asks user for difficulty level they wish to proceed with.
+        while running
 
     # If user picks task 3. Exit
     elif task.upper() == "E":

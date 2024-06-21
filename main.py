@@ -23,11 +23,6 @@ while running:
         running = False
         print("--- RULES ---")
         # Prints Rules.
-        print(""""
-            - You must answer every question.
-            - You can only use 1 item per question (e.g hints, points, etc).
-            - Shop accessibility is after every question.
-            """)
 
     # If user picks task 1. Play
     elif task.upper() == "P":

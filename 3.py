@@ -37,21 +37,23 @@ while running:
             print(" ")
             print("Please choose your difficulty")
             print("-----------------------------")
-            print("   Easy    Medium    Hard   ")
+            print("E.asy")
+            print("M.edium")
+            print("H.ard")
             print("-----------------------------")
             # Sets the difficulty
             difficulty = input("Type here: ")
 
             # If user picks Easy
-            if difficulty.upper() == "EASY":
+            if difficulty.upper() == "E":
                 print("CHOSEN DIFFICULTY: EASY")
             
             # If user picks Medium
-            elif difficulty.upper() == "MEDIUM":
+            elif difficulty.upper() == "M":
                 print("CHOSEN DIFFICULTY: MEDIUM")
 
             # If user picks Hard
-            elif difficulty.upper() == "HARD":
+            elif difficulty.upper() == "H":
                 print("CHOSEN DIFFICULTY: HARD")
 
             # If input isn't valid

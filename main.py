@@ -34,6 +34,7 @@ while running:
         asking: bool = True
         while asking:
             # Asks user for difficulty level they wish to proceed with.
+            print(" ")
             print("Please choose your difficulty")
             print("-----------------------------")
             print("   Easy    Medium    Hard   ")

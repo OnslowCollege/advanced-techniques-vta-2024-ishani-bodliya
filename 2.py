@@ -22,14 +22,14 @@ while running:
     # If user picks task 2. Rules
     if task.upper() == "R":
         running = False
-        print("--- RULES ---")
+        print("----------- RULES -----------")
         # Prints Rules.
 
 
     # If user picks task 1. Play
     elif task.upper() == "P":
         running = False
-        print("--- PLAY ---")
+        print("----------- PLAY -----------")
         # Keeps asking user for a difficulty until they type a valid input.
         asking: bool = True
         while asking:
@@ -37,23 +37,21 @@ while running:
             print(" ")
             print("Please choose your difficulty")
             print("-----------------------------")
-            print("1. Easy")
-            print("2. Medium")
-            print("3. Hard")
+            print("   Easy    Medium    Hard   ")
             print("-----------------------------")
             # Sets the difficulty
-            difficulty = input("Type here: ")
+            difficulty = input("Type here (E, M, H): ")
 
             # If user picks Easy
-            if difficulty.upper() == "1":
+            if difficulty.upper() == "E":
                 print("CHOSEN DIFFICULTY: EASY")
             
             # If user picks Medium
-            elif difficulty.upper() == "2":
+            elif difficulty.upper() == "M":
                 print("CHOSEN DIFFICULTY: MEDIUM")
 
             # If user picks Hard
-            elif difficulty.upper() == "3":
+            elif difficulty.upper() == "H":
                 print("CHOSEN DIFFICULTY: HARD")
 
             # If input isn't valid
@@ -64,7 +62,7 @@ while running:
     # If user picks task 3. Exit
     elif task.upper() == "E":
         # Ends Program
-        print("--- GOODBYE! ---")
+        print("--------- GOODBYE! ---------")
         running = False
     else:
         print("That is an invalid task, try again.")

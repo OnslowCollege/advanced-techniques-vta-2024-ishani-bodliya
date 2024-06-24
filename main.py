@@ -47,6 +47,9 @@ while running:
                 asking = False
                 print("CHOSEN DIFFICULTY: EASY")
                 print("-----------------------------")
+                print("QUESTION 1")
+                print("What is the nearest star to planet Earth?")
+
 
             # If user picks Medium
             elif difficulty.upper() == "M":

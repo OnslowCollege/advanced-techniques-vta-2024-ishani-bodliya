@@ -65,15 +65,19 @@ while running:
                         print("CHOSEN TOPIC: PHYSICS")
 
                     # If user picks B - Biology as their topic
-                    if topic.upper() == "B":
+                    elif topic.upper() == "B":
                         asking_topic_easy = False
                         print("CHOSEN TOPIC: BIOLOGY")
 
                     # If user picks C - Chemistry as their topic
-                    if topic.upper() == "C":
+                    elif topic.upper() == "C":
                         asking_topic_easy = False
                         print("CHOSEN TOPIC: CHEMISTRY")
                     
+                    # If input isnt valid 
+                    else:
+                        print("That is an invalid option, try again.")
+                        print("")
 
 
             # If user picks M - Medium
@@ -99,14 +103,19 @@ while running:
                         print("CHOSEN TOPIC: PHYSICS")
 
                     # If user picks B - Biology as their topic
-                    if topic.upper() == "B":
+                    elif topic.upper() == "B":
                         asking_topic_med = False
                         print("CHOSEN TOPIC: BIOLOGY")
 
                     # If user picks C - Chemistry as their topic
-                    if topic.upper() == "C":
+                    elif topic.upper() == "C":
                         asking_topic_med = False
                         print("CHOSEN TOPIC: CHEMISTRY")
+                        
+                    # If input isnt valid 
+                    else:
+                        print("That is an invalid option, try again.")
+                        print("")
 
 
             # If user picks H - Hard
@@ -132,18 +141,24 @@ while running:
                         print("CHOSEN TOPIC: PHYSICS")
 
                     # If user picks B - Biology as their topic
-                    if topic.upper() == "B":
+                    elif topic.upper() == "B":
                         asking_topic_hard = False
                         print("CHOSEN TOPIC: BIOLOGY")
 
                     # If user picks C - Chemistry as their topic
-                    if topic.upper() == "C":
+                    elif topic.upper() == "C":
                         asking_topic_hard = False
                         print("CHOSEN TOPIC: CHEMISTRY")
+                        
+                    # If input isnt valid 
+                    else:
+                        print("That is an invalid option, try again.")
+                        print("")
 
             # If input isn't valid
             else:
                 print("That is an invalid option, try again.")
+                print("")
 
 
     # If user picks task 3. Exit

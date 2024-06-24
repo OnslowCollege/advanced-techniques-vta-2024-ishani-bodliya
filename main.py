@@ -31,8 +31,8 @@ while running:
         running = False
         print("----------- PLAY -----------")
         # Keeps asking user for a difficulty until they type a valid input.
-        asking: bool = True
-        while asking:
+        asking_difficulty: bool = True
+        while asking_difficulty:
             # Asks user for difficulty level they wish to proceed with.
             print(" ")
             print("Please choose your difficulty")
@@ -42,33 +42,49 @@ while running:
             # Sets the difficulty
             difficulty = input("Type here (E, M, H): ")
 
-            # If user picks Easy
+            # If user picks E - Easy
             if difficulty.upper() == "E":
-                asking = False
+                asking_difficulty = False
                 print("CHOSEN DIFFICULTY: EASY")
                 print("-----------------------------")
                 print(" ")
 
-                # Asks user for topic to get quizzed on.
-                print("Choose a topic in science: ")
-                print("-----------------------------")
-                print(" Physics  Biology  Chemistry")
-                print("-----------------------------")
-                # Sets the topic
-                
+                asking_topic: bool = True
+                while asking_topic:
+                    # Asks user for topic to get quizzed on.
+                    print("Choose a topic in science: ")
+                    print("-----------------------------")
+                    print(" Physics  Biology  Chemistry")
+                    print("-----------------------------")
+                    # Sets the topic
+                    topic = input("Type here (P, B, C): ")
+
+                    # If user picks P - Physics as their topic
+                    if topic.upper() == "P":
+                        asking_topic = False
+                        print("CHOSEN TOPIC: PHYSICS")
+
+                    # If user picks B - Biology as their topic
+                    if topic.upper() == "B":
+                        asking_topic = False
+                        print("CHOSEN TOPIC: BIOLOGY")
+
+                    # If user picks C - Chemistry as their topic
+                    if topic.upper() == "C":
+                        asking_topic = False
+                        print("CHOSEN TOPIC: CHEMISTRY")
+                    
 
 
-
-
-            # If user picks Medium
+            # If user picks M - Medium
             elif difficulty.upper() == "M":
-                asking = False
+                asking_difficulty = False
                 print("CHOSEN DIFFICULTY: MEDIUM")
 
 
-            # If user picks Hard
+            # If user picks H - Hard
             elif difficulty.upper() == "H":
-                asking = False
+                asking_difficulty = False
                 print("CHOSEN DIFFICULTY: HARD")
 
 

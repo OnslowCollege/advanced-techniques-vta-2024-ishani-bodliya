@@ -47,8 +47,17 @@ while running:
                 asking = False
                 print("CHOSEN DIFFICULTY: EASY")
                 print("-----------------------------")
-                print("QUESTION 1")
-                print("What is the nearest star to planet Earth?")
+                print(" ")
+
+                # Asks user for topic to get quizzed on.
+                print("Choose a topic in science: ")
+                print("-----------------------------")
+                print(" Physics  Biology  Chemistry")
+                print("-----------------------------")
+                # Sets the topic
+                
+
+
 
 
             # If user picks Medium

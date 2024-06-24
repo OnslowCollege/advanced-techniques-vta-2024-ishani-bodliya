@@ -47,15 +47,18 @@ while running:
                 asking = False
                 print("CHOSEN DIFFICULTY: EASY")
             
+
             # If user picks Medium
             elif difficulty.upper() == "M":
                 asking = False
                 print("CHOSEN DIFFICULTY: MEDIUM")
 
+
             # If user picks Hard
             elif difficulty.upper() == "H":
                 asking = False
                 print("CHOSEN DIFFICULTY: HARD")
+
 
             # If input isn't valid
             else:

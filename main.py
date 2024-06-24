@@ -46,7 +46,7 @@ while running:
             if difficulty.upper() == "E":
                 asking = False
                 print("CHOSEN DIFFICULTY: EASY")
-            
+                print("-----------------------------")
 
             # If user picks Medium
             elif difficulty.upper() == "M":

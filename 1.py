@@ -11,8 +11,8 @@ def ask_difficulty():
     """
     Asks user for  their chosen difficuly to pursue the program. This will determine the contents of the questions that are asked.
 
-    Parameter:
-    -----------
+    Return:
+    -------
     -
     """
     asking_difficulty = True

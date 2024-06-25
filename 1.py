@@ -14,6 +14,7 @@ def ask_difficulty():
     Returns:
     -------
     - A difficulty that is converted to uppercases.
+
     """
     asking_difficulty = True
     while asking_difficulty:
@@ -44,7 +45,7 @@ def ask_topic(difficulty):
     Return:
     ------
     - A topic that is converted to uppercases.
-    
+
     """
     asking_topic = True
     while asking_topic:

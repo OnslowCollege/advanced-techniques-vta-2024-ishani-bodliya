@@ -9,7 +9,11 @@ Date: DATE
 # Function to recieve the chosen difficulty from user.
 def ask_difficulty():
     """
-    Asks user for  
+    Asks user for  their chosen difficuly to pursue the program. This will determine the contents of the questions that are asked.
+
+    Parameter:
+    -----------
+    -
     """
     asking_difficulty = True
     while asking_difficulty:

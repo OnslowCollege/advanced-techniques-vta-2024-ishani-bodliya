@@ -9,9 +9,9 @@ Date: DATE
 # Function to recieve the chosen difficulty from user.
 def ask_difficulty():
     """
-    Asks user for  their chosen difficuly to pursue the program. This will determine the contents of the questions that are asked.
+    Ask user for  their chosen difficuly to pursue the program and will determine contents of the questions.
 
-    Return:
+    Returns:
     -------
     - A difficulty that is converted to uppercases.
     """
@@ -24,12 +24,49 @@ def ask_difficulty():
         print("   Easy    Medium    Hard   ")
         print("-----------------------------")
         difficulty = input("Type here (E, M, H): ")
-        if difficulty.upper() == "E" or "M" or "H":
+        if difficulty.upper() in ["E", "M", "H"]:
             asking_difficulty = False
             return difficulty.upper()
         else:
             print("That is an invalid option, try again.")
             print("")
+
+
+# Function that gets the topic for questions that would be asked
+def ask_topic(difficulty):
+    """
+    Ask user which topic they would like to be quizzed on.
+
+    Arguments:
+    ---------
+    - difficulty: The difficulty of questions set by the user.
+
+    Return:
+    ------
+    - A topic that is converted to uppercases.
+    
+    """
+    asking_topic = True
+    while asking_topic:
+    # Asks user for topic to get quizzed on.
+        print("Choose a topic in science: ")
+        print("-----------------------------")
+        print(" Physics  Biology  Chemistry")
+        print("-----------------------------")
+        # Sets the topic
+        topic = input("Type here (P, B, C): ")
+        if topic.upper() in ["P", "B", "C"]:
+            asking_topic = False
+            return topic.uper()
+        else:
+            print("That is an invalid option, try again.")
+            print("")
+
+
+
+
+
+
 
 # Allows program to repeat itself until user types a valid answer.
 running: bool = True

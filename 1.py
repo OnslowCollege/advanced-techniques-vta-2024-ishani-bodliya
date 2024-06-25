@@ -13,7 +13,7 @@ def ask_difficulty():
 
     Return:
     -------
-    -
+    - A difficulty that is converted to uppercases.
     """
     asking_difficulty = True
     while asking_difficulty:

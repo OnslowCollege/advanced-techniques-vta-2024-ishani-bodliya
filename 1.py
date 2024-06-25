@@ -6,6 +6,27 @@ Date: DATE
 """
 
 # Enter your code here
+# Function to recieve the chosen difficulty from user.
+def ask_difficulty():
+    """
+    Asks user for 
+    """
+    asking_difficulty = True
+    while asking_difficulty:
+        # Asks user for difficulty level they wish to proceed with.
+        print(" ")
+        print("Please choose your difficulty")
+        print("-----------------------------")
+        print("   Easy    Medium    Hard   ")
+        print("-----------------------------")
+        difficulty = input("Type here (E, M, H): ")
+        if difficulty.upper() == "E" or "M" or "H":
+            asking_difficulty = False
+            return difficulty.upper()
+        else:
+            print("That is an invalid option, try again.")
+            print("")
+
 # Allows program to repeat itself until user types a valid answer.
 running: bool = True
 while running:

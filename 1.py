@@ -28,9 +28,9 @@ def ask_difficulty():
         if difficulty.upper() in ["E", "M", "H"]:
             asking_difficulty = False
             return difficulty.upper()
-        else:
-            print("That is an invalid option, try again.")
-            print("")
+        print("That is an invalid option, try again.")
+        print("")
+    return None
 
 
 def ask_topic(difficulty):
@@ -58,9 +58,9 @@ def ask_topic(difficulty):
         if topic.upper() in ["P", "B", "C"]:
             asking_topic = False
             return topic.uper()
-        else:
-            print("That is an invalid option, try again.")
-            print("")
+        print("That is an invalid option, try again.")
+        print("")
+    return None
 
 
 def play_game():

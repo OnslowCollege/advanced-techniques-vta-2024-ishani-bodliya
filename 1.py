@@ -6,7 +6,7 @@ Date: DATE
 """
 
 # Enter your code here
-# Function to recieve the chosen difficulty from user.
+# Functions
 def ask_difficulty():
     """
     Ask user for  their chosen difficuly to pursue the program and will determine contents of the questions.
@@ -33,7 +33,6 @@ def ask_difficulty():
             print("")
 
 
-# Function that gets the topic for questions that would be asked
 def ask_topic(difficulty):
     """
     Ask user which topic they would like to be quizzed on.
@@ -64,7 +63,16 @@ def ask_topic(difficulty):
             print("")
 
 
+def play_game():
+    """Start asking question when user picks play button."""
+    print("----------- PLAY -----------")
+    difficulty = ask_difficulty()
+    print(f"CHOSEN DIFFICULTY: {difficulty}")
+    print("-----------------------------")
+    print(" ")
 
+    topic = ask_topic(difficulty)
+    print(f"CHOSEN TOPIC: {topic}")
 
 
 

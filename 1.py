@@ -92,6 +92,10 @@ while running:
         running = False
         print("----------- RULES -----------")
         print("1. Choose Difficulty (Easy, Medium, Hard)")
+        print("2. Select topic of choice (Physics, Biology, Chemistry)")
+        print("3. Answer every question to your bestest ability")
+        print("4. Enjoy learning!")
+        print("-----------------------------")
         # Prints Rules. (choose diff, select topic, answer ques,enjoy learn)
 
     # If user picks task 1. Play

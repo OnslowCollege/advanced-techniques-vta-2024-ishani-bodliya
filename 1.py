@@ -91,6 +91,7 @@ while running:
     if task.upper() == "R":
         running = False
         print("----------- RULES -----------")
+        print("1. Choose Difficulty (Easy, Medium, Hard)")
         # Prints Rules. (choose diff, select topic, answer ques,enjoy learn)
 
     # If user picks task 1. Play

@@ -96,6 +96,7 @@ while running:
         print("3. Answer every question to your bestest ability")
         print("4. Enjoy learning!")
         print("-----------------------------")
+        input("Press enter when your finished reading :)")
         # Prints Rules. (choose diff, select topic, answer ques,enjoy learn)
 
     # If user picks task 1. Play

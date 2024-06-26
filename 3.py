@@ -89,7 +89,6 @@ while running:
 
     # If user picks task 2. Rules
     if task.upper() == "R":
-        running = False
         print("----------- RULES -----------")
         print("Choose Difficulty (Easy, Medium, Hard)")
         print("------")
@@ -99,6 +98,8 @@ while running:
         print("------")
         print("Enjoy learning!")
         print("-----------------------------")
+        input("Press enter when your finished reading :)")
+        print("")
         # Prints Rules. (choose diff, select topic, answer ques,enjoy learn)
 
     # If user picks task 1. Play

@@ -90,10 +90,13 @@ while running:
     # If user picks task 2. Rules
     if task.upper() == "R":
         print("----------- RULES -----------")
-        print("• Choose Difficulty (Easy, Medium, Hard)")
-        print("• Select topic of choice (Physics, Biology, Chemistry)")
-        print("• Answer every question to your bestest ability")
-        print("• Enjoy learning!")
+        print("Choose Difficulty (Easy, Medium, Hard)")
+        print("------")
+        print("Select topic of choice (Physics, Biology, Chemistry)")
+        print("------")
+        print("Answer every question to your bestest ability")
+        print("------")
+        print("Enjoy learning!")
         print("-----------------------------")
         input("Press enter when your finished reading :)")
         print("")

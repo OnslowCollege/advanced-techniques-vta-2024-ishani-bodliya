@@ -20,14 +20,14 @@ questions = {
             2: {"question": "What is the formula for calculating kinetic energy?", "answer": "1/2 mv^2", "points": 20},
             3: {"question": "What is the SI unit of power?", "answer": "Watt", "points": 20},
             4: {"question": "An object is weightless when its...", "answer": "in freefall", "points": 20},
-            5: {"question": "", "answer": "", "points": 20},
+            5: {"question": "Light years is the unit of...", "answer": "Length", "points": 20},
         },
         "hard": {
             1: {"question": "What is the phenomenon where light bends around corners?", "answer": "Diffraction", "points": 30 },
             2: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer": "Newton's third law", "points": 30 },
             3: {"question": "What is the theory that describes the behaviour of particles at atomic and subatomic levels?", "answer": "Quantum mechanics", "points": 30 },
             4: {"question": "What type of lens is used in a magnifying glass?", "answer": "Convex", "points": 30},
-            5: {"question": "", "answer": "", "points": 30}
+            5: {"question": "How many minutes does it take for light to reach Earth from the Sun?", "answer": "8", "points": 30}
         }
     },
 

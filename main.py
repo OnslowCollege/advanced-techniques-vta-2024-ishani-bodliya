@@ -85,11 +85,12 @@ def ask_difficulty():
 
 def ask_topic(difficulty):
     """
-    Ask user which topic they would like to be quizzed on.
+    Ask user which topic they would like to be quizzed on from Physics, Biology, or Chemistry.
 
     Arguments:
     ---------
     - difficulty: The difficulty of questions set by the user.
+    - asking_topic: States wether program is waiting for a valid answer or not.
 
     Return:
     ------
@@ -107,7 +108,7 @@ def ask_topic(difficulty):
         topic = input("Type here (P, B, C): ")
         if topic.upper() in ["P", "B", "C"]:
             asking_topic = False
-            return topic.uper()
+            return topic.upper()
         print("That is an invalid option, try again.")
         print("")
     return None
@@ -130,6 +131,7 @@ def ask_questions(topic, difficulty, question_num):
     answer = questions[topic][difficulty][question_num]["answer"]
     points = questions[topic][difficulty][question_num]["points"]
     users_answer = input(question + " ")
+    
     if users_answer.lower() == answer.lower():
         return points
     return 0

@@ -145,7 +145,8 @@ def play_game():
                 total_points -= points
                 print(f"Points: {points}")
         else:
-            print("Incorrect answer")
+            print("Incorrect answer.")
+    print(f"Game over. Points: {points}")
 
 
 def ask_questions(topic, difficulty, question_num):

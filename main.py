@@ -10,6 +10,9 @@ questions = {
     "Physics": {
         "easy": {
             1: {"question": "What force keeps us on the ground?", "answer": "Gravity", "points": 10}
+        },
+        "medium": {
+            1: {"question": What }
         }
     }
 }

@@ -9,32 +9,51 @@ Date: DATE
 questions = {
     "Physics": {
         "easy": {
-            1: {"question": "What force keeps us on the ground?", "answer": "Gravity", "points": 10}
+            1: {"question": "What force keeps us on the ground?", "answer": "Gravity", "points": 10},
+            2: {"question": "What is the unit of force?", "answer": "Newton", "points": 10},
+            3: {"question": "Wha is the formula for calculating speed?", "answer": "Distance/Time", "points": 10},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
         },
         "medium": {
-            1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer:": "Newton's third law", "points": 20}
+            1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer:": "Newton's third law", "points": 20},
+            2: {"question": "", "answer": "", "points": 10},
+            3: {"question": "", "answer": "", "points": 10},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10},
         },
         "hard": {
             1: {"question": "What is the phenomenon where light bends around corners?", "answer": "Diffraction", "points": 30 },
             2: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer": "Newton's third law", "points": 30 },
-            3: {"question": "What is the theory that describes the behaviour of particles at atomic and subatomic levels?", "answer": "Quantum mechanics", "points": 30 }
+            3: {"question": "What is the theory that describes the behaviour of particles at atomic and subatomic levels?", "answer": "Quantum mechanics", "points": 30 },
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
         }
     },
 
 
     "Biology": {
         "easy": {
-            1: {"question": "What organ pumps blood through the body?", "answer": "Heart", "points": 10}
+            1: {"question": "What organ pumps blood through the body?", "answer": "Heart", "points": 10},
+            2: {"question": "", "answer": "", "points": 10},
+            3: {"question": "", "answer": "", "points": 10},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
         },
         "medium": {
             1: {"question": "What process do plants use to make food?", "answer:": "Photosynthesis", "points": 20},
             2: {"question": "What is the powerhouse of the cell?", "answer": "Mitochondria", "points": 20},
-            3: {"question": "What is the longest bone in the human body?", "answer": "Femur", "points": 20}
+            3: {"question": "What is the longest bone in the human body?", "answer": "Femur", "points": 20},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
             
         },
         "hard": {
             1: {"question": "What is the scientific name for the human species?", "answer": "Homo sapiens", "points": 30 },
-            2: {"question": "What part of the cell contains the genetic material?", "answer": "Nucleus", "points": 30}
+            2: {"question": "What part of the cell contains the genetic material?", "answer": "Nucleus", "points": 30},
+            3: {"question": "", "answer": "", "points": 10},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
         }
     },
 
@@ -42,15 +61,24 @@ questions = {
     "Chemistry": {
         "easy": {
             1: {"question": "What is H2O commonly known as?", "answer": "Water", "points": 10},
-            2: {"question": "What is the first element on the periodic table?", "answer": "Hydrogen", "points": 10}
+            2: {"question": "What is the first element on the periodic table?", "answer": "Hydrogen", "points": 10},
+            3: {"question": "", "answer": "", "points": 10},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
         },
         "medium": {
             1: {"question": "What is the pH of pure water", "answer:": "7", "points": 20},
-            2: {"question": "What is the chemical symbol for gold?", "answer": "Au", "points": 20}
+            2: {"question": "What is the chemical symbol for gold?", "answer": "Au", "points": 20},
+            3: {"question": "", "answer": "", "points": 10},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
         },
         "hard": {
             1: {"question": "What is the chemical formula for table salt?", "answer": "NaCl", "points": 30 },
-            2: {"question": "What is the heaviest naturally occuring element?", "answer": "Uranium", "points": 30 }
+            2: {"question": "What is the heaviest naturally occuring element?", "answer": "Uranium", "points": 30 },
+            3: {"question": "", "answer": "", "points": 10},
+            4: {"question": "", "answer": "", "points": 10},
+            5: {"question": "", "answer": "", "points": 10}
             
         }
     }

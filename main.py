@@ -135,15 +135,17 @@ def play_game():
         if points > 0:
             print(f"Correct! + {points} points")
             total_points += points
-            ask_for_shop = input(f"Points: {total_points}, Would you like to open the shop?")
-            
-            if ask_for_shop.lower() == "yes" or "y":
-                points_from_reward = uncertain_reward(points)
-                if points_from_reward > 0:
-                    print(f"Yay! Your points were doubled, points: {points}")
-                    total_points += points_from_reward
-                else:
-                    print("")
+            points_from_reward = uncertain_reward(points)
+            if points_from_reward > 0:
+                print("You won the uncertain reward, your points were doubled")
+                total_points += points_from_reward
+                print(f"Points: {points}")
+            else:
+                print("You lost the uncertain reward and lost points")
+                total_points -= points
+                print(f"Points: {points}")
+        else:
+            print("Incorrect answer")
 
 
 def ask_questions(topic, difficulty, question_num):

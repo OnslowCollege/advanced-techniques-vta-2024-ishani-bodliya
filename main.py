@@ -125,13 +125,27 @@ def play_game():
     topic = ask_topic(difficulty)
     print(f"CHOSEN TOPIC: {topic}")
 
+    total_points = 0
+
+    num_questions = len(questions[topic.lower()][difficulty.lower()])
+    for question_num in range (1, num_questions + 1):
+        print(f"Question {question_num}")
+        points = ask_questions(topic.lower(), difficulty.lower(), question_num)
+
+        if points > 0:
+            print(f"Correct! + {points} points")
+            total_points += points
+            ask_for_shop = input(f"You have {total_points} points, Would you like to open the shop?")
+            
+            if ask_for_shop.lower() == 'yes' or "y":
+
 
 def ask_questions(topic, difficulty, question_num):
     question = questions[topic][difficulty][question_num]["question"]
     answer = questions[topic][difficulty][question_num]["answer"]
     points = questions[topic][difficulty][question_num]["points"]
     users_answer = input(question + " ")
-    
+
     if users_answer.lower() == answer.lower():
         return points
     return 0

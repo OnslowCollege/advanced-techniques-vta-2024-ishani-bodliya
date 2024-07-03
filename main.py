@@ -6,6 +6,14 @@ Date: DATE
 """
 
 # Enter your code here
+questions = {
+    "Physics": {
+        "easy": {
+            1: {"question": "What force keeps us on the ground?", "answer": "Gravity", "points": 10}
+        }
+    }
+}
+
 # Functions
 def ask_difficulty():
     """
@@ -86,6 +94,7 @@ while running:
     print("---------------------------")
     # Asks user which function they would like to perform.
     task = input("Choose an action (E, P, R): ")
+    print("")
 
     # If user picks task 2. Rules
     if task.upper() == "R":

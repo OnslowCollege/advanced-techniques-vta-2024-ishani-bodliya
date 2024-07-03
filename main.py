@@ -62,15 +62,15 @@ questions = {
         "easy": {
             1: {"question": "What is H2O commonly known as?", "answer": "Water", "points": 10},
             2: {"question": "What is the first element on the periodic table?", "answer": "Hydrogen", "points": 10},
-            3: {"question": "", "answer": "", "points": 10},
+            3: {"question": "What as do plants absorb from the atmosphere?", "answer": "Carbon", "points": 10},
             4: {"question": "", "answer": "", "points": 10},
             5: {"question": "", "answer": "", "points": 10}
         },
         "medium": {
             1: {"question": "What is the pH of pure water", "answer:": "7", "points": 20},
             2: {"question": "What is the chemical symbol for gold?", "answer": "Au", "points": 20},
-            3: {"question": "", "answer": "", "points": 10},
-            4: {"question": "", "answer": "", "points": 10},
+            3: {"question": "What type of bond involves the sharing of electron pairs between atoms?", "answer": "Covalent bond", "points": 20},
+            4: {"question": "What is the process called when a solid turns directly into a gas?", "answer": "Sublimation", "points": 20},
             5: {"question": "", "answer": "", "points": 10}
         },
         "hard": {

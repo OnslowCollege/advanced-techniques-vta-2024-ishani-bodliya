@@ -114,6 +114,26 @@ def ask_topic(difficulty):
     return None
 
 
+def uncertain_reward(points):
+    """
+    Determine the uncertain reward that user recieve when they answer correctly.
+
+    Arguments:
+    ---------
+    - points: The number of points the user earned.
+
+    Returns:
+    -------
+    - The updated points if the user wins the uncertain reward.
+    - If user loses the uncertain reward, return is 0.
+
+    """
+    chance_for_reward = random.choice([True, False])
+    if chance_for_reward:
+        return points * 2
+    return 0
+
+
 def play_game():
     """Start asking question when user picks play button."""
     print("----------- PLAY -----------")

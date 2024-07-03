@@ -26,7 +26,7 @@ questions = {
             1: {"question": "What is the phenomenon where light bends around corners?", "answer": "Diffraction", "points": 30 },
             2: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer": "Newton's third law", "points": 30 },
             3: {"question": "What is the theory that describes the behaviour of particles at atomic and subatomic levels?", "answer": "Quantum mechanics", "points": 30 },
-            4: {"question": "", "answer": "", "points": 30},
+            4: {"question": "What type of lens is used in a magnifying glass?", "answer": "Convex", "points": 30},
             5: {"question": "", "answer": "", "points": 30}
         }
     },

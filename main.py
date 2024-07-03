@@ -12,22 +12,22 @@ questions = {
             1: {"question": "What force keeps us on the ground?", "answer": "Gravity", "points": 10},
             2: {"question": "What is the unit of force?", "answer": "Newton", "points": 10},
             3: {"question": "Wha is the formula for calculating speed?", "answer": "Distance/Time", "points": 10},
-            4: {"question": "", "answer": "", "points": 10},
-            5: {"question": "", "answer": "", "points": 10}
+            4: {"question": "What is the primary cause of tides on Earth?", "answer": "Moon", "points": 10},
+            5: {"question": "What is the formula for force?", "answer": "mass * acceleration", "points": 10}
         },
         "medium": {
             1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer:": "Newton's third law", "points": 20},
-            2: {"question": "", "answer": "", "points": 10},
-            3: {"question": "", "answer": "", "points": 10},
-            4: {"question": "", "answer": "", "points": 10},
-            5: {"question": "", "answer": "", "points": 10},
+            2: {"question": "What is the formula for calculating kinetic energy?", "answer": "1/2 mv^2", "points": 20},
+            3: {"question": "", "answer": "", "points": 20},
+            4: {"question": "", "answer": "", "points": 20},
+            5: {"question": "", "answer": "", "points": 20},
         },
         "hard": {
             1: {"question": "What is the phenomenon where light bends around corners?", "answer": "Diffraction", "points": 30 },
             2: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer": "Newton's third law", "points": 30 },
             3: {"question": "What is the theory that describes the behaviour of particles at atomic and subatomic levels?", "answer": "Quantum mechanics", "points": 30 },
-            4: {"question": "", "answer": "", "points": 10},
-            5: {"question": "", "answer": "", "points": 10}
+            4: {"question": "", "answer": "", "points": 30},
+            5: {"question": "", "answer": "", "points": 30}
         }
     },
 

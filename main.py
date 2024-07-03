@@ -13,6 +13,9 @@ questions = {
         },
         "medium": {
             1: {"question": What }
+        },
+        "hard": {
+            1: {"question": }
         }
     }
 }

@@ -17,6 +17,32 @@ questions = {
         "hard": {
             1: {"question": "What is the phenomenon where light bends around corners?", "answer": "Diffraction", "points": 30 }
         }
+    },
+
+
+    "Biology": {
+        "easy": {
+            1: {"question": "What organ pumps blood through the body?", "answer": "Heart", "points": 10}
+        },
+        "medium": {
+            1: {"question": "What process do plants use to make food?", "answer:": "Photosynthesis", "points": 20}
+        },
+        "hard": {
+            1: {"question": "What is the scientific name for the human species?", "answer": "Homo sapiens", "points": 30 }
+        }
+    },
+
+
+    "Chemistry": {
+        "easy": {
+            1: {"question": "What is H2O commonly known as?", "answer": "Water", "points": 10}
+        },
+        "medium": {
+            1: {"question": "What is the pH of pure water", "answer:": "7", "points": 20}
+        },
+        "hard": {
+            1: {"question": "What is the chemical formula for table salt?", "answer": "NaCl", "points": 30 }
+        }
     }
 }
 

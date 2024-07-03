@@ -35,25 +35,25 @@ questions = {
     "Biology": {
         "easy": {
             1: {"question": "What organ pumps blood through the body?", "answer": "Heart", "points": 10},
-            2: {"question": "", "answer": "", "points": 10},
-            3: {"question": "", "answer": "", "points": 10},
+            2: {"question": "What is the largest organ in the human body?", "answer": "Skin", "points": 10},
+            3: {"question": "What process do plants use to make food?", "answer": "Photosynthesis", "points": 10},
             4: {"question": "", "answer": "", "points": 10},
             5: {"question": "", "answer": "", "points": 10}
         },
         "medium": {
-            1: {"question": "What process do plants use to make food?", "answer:": "Photosynthesis", "points": 20},
+            1: {"question": "What is the smallest unit of life?", "answer:": "Cell", "points": 20},
             2: {"question": "What is the powerhouse of the cell?", "answer": "Mitochondria", "points": 20},
             3: {"question": "What is the longest bone in the human body?", "answer": "Femur", "points": 20},
-            4: {"question": "", "answer": "", "points": 10},
-            5: {"question": "", "answer": "", "points": 10}
+            4: {"question": "What shape are plant cells", "answer": "Rectangular", "points": 20},
+            5: {"question": "What molecule carries genetic instructions used in growth, development, and reproduction", "answer": "DNA", "points": 20}
             
         },
         "hard": {
             1: {"question": "What is the scientific name for the human species?", "answer": "Homo sapiens", "points": 30 },
             2: {"question": "What part of the cell contains the genetic material?", "answer": "Nucleus", "points": 30},
-            3: {"question": "", "answer": "", "points": 10},
-            4: {"question": "", "answer": "", "points": 10},
-            5: {"question": "", "answer": "", "points": 10}
+            3: {"question": "What is the proces by which a single cell divides into two identical cells?", "answer": "Mitosis", "points": 30},
+            4: {"question": "What is the study of heredity and the variation of inherited characteristics?", "answer": "Genetics", "points": 30},
+            5: {"question": "What organ is the main component of plant cell walls?", "answer": "Cellulose", "points": 30}
         }
     },
 

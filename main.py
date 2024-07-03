@@ -142,6 +142,8 @@ def play_game():
                 if points_from_reward > 0:
                     print(f"Yay! Your points were doubled, points: {points}")
                     total_points += points_from_reward
+                else:
+                    print("")
 
 
 def ask_questions(topic, difficulty, question_num):

@@ -64,7 +64,7 @@ questions = {
             2: {"question": "What is the first element on the periodic table?", "answer": "Hydrogen", "points": 10},
             3: {"question": "What as do plants absorb from the atmosphere?", "answer": "Carbon", "points": 10},
             4: {"question": "What is the heaviest naturally occurring element?", "answer": "Uranium", "points": 10},
-            5: {"question": "", "answer": "", "points": 10}
+            5: {"question": "What type of charge does an electron carry?", "answer": "Positive", "points": 10}
         },
         "medium": {
             1: {"question": "What is the pH of pure water", "answer:": "7", "points": 20},

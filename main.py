@@ -37,7 +37,7 @@ questions = {
             1: {"question": "What organ pumps blood through the body?", "answer": "Heart", "points": 10},
             2: {"question": "What is the largest organ in the human body?", "answer": "Skin", "points": 10},
             3: {"question": "What process do plants use to make food?", "answer": "Photosynthesis", "points": 10},
-            4: {"question": "", "answer": "", "points": 10},
+            4: {"question": "Heterochromia results in which change in physical appearance?", "answer": "different colored eyes", "points": 10},
             5: {"question": "", "answer": "", "points": 10}
         },
         "medium": {

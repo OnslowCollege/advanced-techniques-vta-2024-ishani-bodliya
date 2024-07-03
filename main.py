@@ -18,7 +18,7 @@ questions = {
         "medium": {
             1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer:": "Newton's third law", "points": 20},
             2: {"question": "What is the formula for calculating kinetic energy?", "answer": "1/2 mv^2", "points": 20},
-            3: {"question": "", "answer": "", "points": 20},
+            3: {"question": "What is the SI unit of power?", "answer": "Watt", "points": 20},
             4: {"question": "", "answer": "", "points": 20},
             5: {"question": "", "answer": "", "points": 20},
         },

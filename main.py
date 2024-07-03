@@ -15,7 +15,7 @@ questions = {
             1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer:": "Newton's third law", "points": 20}
         },
         "hard": {
-            1: {"question": }
+            1: {"question": "What is the phenomenon where light bends around corners?", "answer": "Diffraction", "points": 30 }
         }
     }
 }

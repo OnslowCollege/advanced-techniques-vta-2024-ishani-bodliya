@@ -38,7 +38,8 @@ questions = {
             1: {"question": "What is H2O commonly known as?", "answer": "Water", "points": 10}
         },
         "medium": {
-            1: {"question": "What is the pH of pure water", "answer:": "7", "points": 20}
+            1: {"question": "What is the pH of pure water", "answer:": "7", "points": 20},
+            2: {"question": "What is the chemical symbol for gold?", "answer": "Au"}
         },
         "hard": {
             1: {"question": "What is the chemical formula for table salt?", "answer": "NaCl", "points": 30 }

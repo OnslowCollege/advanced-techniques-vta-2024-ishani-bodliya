@@ -12,7 +12,7 @@ questions = {
             1: {"question": "What force keeps us on the ground?", "answer": "Gravity", "points": 10}
         },
         "medium": {
-            1: {"question": What }
+            1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer:": "Newton's third law", "points": 20}
         },
         "hard": {
             1: {"question": }

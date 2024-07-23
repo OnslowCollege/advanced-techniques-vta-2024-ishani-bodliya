@@ -144,7 +144,7 @@ def ask_topic(difficulty):
 
 def uncertain_reward(points):
     """
-    Determine the uncertain reward that user recieve when they answer correctly.
+    Determine uncertain reward that user recieve when they answer correctly.
 
     Arguments:
     ---------

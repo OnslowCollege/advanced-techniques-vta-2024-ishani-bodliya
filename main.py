@@ -71,13 +71,13 @@ questions = {
             2: {"question": "What is the chemical symbol for gold?", "answer": "Au", "points": 20},
             3: {"question": "What type of bond involves the sharing of electron pairs between atoms?", "answer": "Covalent bond", "points": 20},
             4: {"question": "What is the process called when a solid turns directly into a gas?", "answer": "Sublimation", "points": 20},
-            5: {"question": "", "answer": "", "points": 20}
+            5: {"question": "True or False, Acids have a pH of below 7", "answer": "True", "points": 20}
         },
         "hard": {
             1: {"question": "What is the chemical formula for table salt?", "answer": "NaCl", "points": 30 },
             2: {"question": "What is the heaviest naturally occuring element?", "answer": "Uranium", "points": 30 },
             3: {"question": "What is the main component of natural gas?", "answer": "Methane", "points": 30},
-            4: {"question": "", "answer": "", "points": 30},
+            4: {"question": "K is the chem symbol of which element?", "answer": "Potaaaium", "points": 30},
             5: {"question": "", "answer": "", "points": 30}
             
         }

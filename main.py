@@ -6,6 +6,8 @@ Date: DATE
 """
 
 # Enter your code here
+import random
+
 questions = {
     "Physics": {
         "easy": {

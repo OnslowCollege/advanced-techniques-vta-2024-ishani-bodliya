@@ -11,7 +11,7 @@ questions = {
         "easy": {
             1: {"question": "What force keeps us on the ground?", "answer": "Gravity", "points": 10},
             2: {"question": "What is the unit of force?", "answer": "Newton", "points": 10},
-            3: {"question": "Wha is the formula for calculating speed?", "answer": "Distance/Time", "points": 10},
+            3: {"question": "What is the formula for calculating speed?", "answer": "Distance/Time", "points": 10},
             4: {"question": "What is the primary cause of tides on Earth?", "answer": "Moon", "points": 10},
             5: {"question": "What is the formula for force?", "answer": "mass * acceleration", "points": 10}
         },

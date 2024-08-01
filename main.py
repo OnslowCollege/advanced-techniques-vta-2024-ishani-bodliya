@@ -38,7 +38,7 @@ questions = {
             2: {"question": "What is the largest organ in the human body?", "answer": "Skin", "points": 10},
             3: {"question": "What process do plants use to make food?", "answer": "Photosynthesis", "points": 10},
             4: {"question": "Heterochromia results in which change in physical appearance?", "answer": "different colored eyes", "points": 10},
-            5: {"question": "", "answer": "", "points": 10}
+            5: {"question": "Botany is the study of what life-form?", "answer": "Plants", "points": 10}
         },
         "medium": {
             1: {"question": "What is the smallest unit of life?", "answer:": "Cell", "points": 20},

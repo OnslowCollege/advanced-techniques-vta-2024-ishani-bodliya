@@ -200,6 +200,7 @@ def play_game():
 
 
 def ask_questions(topic, difficulty, question_num):
+    
     question = questions[topic][difficulty][question_num]["question"]
     answer = questions[topic][difficulty][question_num]["answer"]
     points = questions[topic][difficulty][question_num]["points"]

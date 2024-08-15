@@ -89,11 +89,13 @@ questions = {
 # Functions
 def ask_difficulty():
     """
-    Ask user for  their chosen difficuly to pursue the program and will determine contents of the questions.
+    Asks the user to select a difficulty level for the quiz.
 
     Returns:
     -------
-    - A difficulty that is converted to uppercases.
+    str or None
+    - The chosen difficulty as an uppercase letter ('E' for Easy, 'M' for Medium, 'H' for Hard) 
+    - If valid option is selected. Returns None if no valid option is selected.
 
     """
     asking_difficulty = True
@@ -125,8 +127,9 @@ def ask_topic(difficulty):
     Returns:
     -------
     str or None
-        The chosen topic as an uppercase letter ('P' for Physics, 'B' for Biology, 'C' for Chemistry) 
-        if a valid option is selected. Returns None if no valid option is selected.
+    - The chosen topic as an uppercase letter ('P' for Physics, 'B' for Biology, 'C' for Chemistry) 
+    - If valid option is selected. Returns None if no valid option is selected.
+
     """
     asking_topic = True
     while asking_topic:

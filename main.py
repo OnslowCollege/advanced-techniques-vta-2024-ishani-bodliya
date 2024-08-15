@@ -96,7 +96,7 @@ def ask_difficulty():
     str or None
     - The chosen difficulty as an uppercase letter ('E' for Easy, 'M' for Medium, 'H' for Hard) 
     - If valid option is selected. Returns None if no valid option is selected.
-    
+
     """
     asking_difficulty = True
     while asking_difficulty:
@@ -122,12 +122,12 @@ def ask_topic(difficulty):
     Args:
     ----
     difficulty : str
-        The difficulty level chosen by the user, which may influence the available topics.
+        The difficulty level chosen by the use.
 
     Returns:
     -------
     str or None
-    - The chosen topic as an uppercase letter ('P' for Physics, 'B' for Biology, 'C' for Chemistry) 
+    - The chosen topic as an uppercase letter ('P' - Physics, 'B' - Biology, 'C' - Chemistry) 
     - If valid option is selected. Returns None if no valid option is selected.
 
     """
@@ -206,7 +206,7 @@ def play_game():
 
 def ask_questions(topic, difficulty, question_num):
     """
-    Ask a question based on the topic, difficulty, and question number, and returns the points based on answer.
+    Ask a question based on topic and difficulty, and returns the points.
 
     Arguments:
     ---------
@@ -219,7 +219,7 @@ def ask_questions(topic, difficulty, question_num):
 
     Returns:
     -------
-    int: The points for correct answer. If correct, returns the points. Otherwise, it returns 0.
+    int: The points for correct answer. If incorrect, returns 0.
     
     """
     question = questions[topic][difficulty][question_num]["question"]

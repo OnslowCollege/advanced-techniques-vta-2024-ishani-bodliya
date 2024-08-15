@@ -96,7 +96,7 @@ def ask_difficulty():
     str or None
     - The chosen difficulty as an uppercase letter ('E' for Easy, 'M' for Medium, 'H' for Hard) 
     - If valid option is selected. Returns None if no valid option is selected.
-
+    
     """
     asking_difficulty = True
     while asking_difficulty:

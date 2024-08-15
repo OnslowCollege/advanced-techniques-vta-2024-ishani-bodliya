@@ -146,16 +146,17 @@ def ask_topic(difficulty):
 
 def uncertain_reward(points):
     """
-    Determine uncertain reward that user recieve when they answer correctly.
+    Determine whether player gets a reward or no reward.
 
-    Arguments:
-    ---------
-    - points: The number of points the user earned.
+    Args:
+    ----
+    points : int
+    - The number of points that could potentially be doubled as a reward.
 
     Returns:
     -------
-    - The updated points if the user wins the uncertain reward.
-    - If user loses the uncertain reward, return is 0.
+    int
+    - The doubled points if the reward is granted, otherwise 0.
 
     """
     chance_for_reward = random.choice([True, False])

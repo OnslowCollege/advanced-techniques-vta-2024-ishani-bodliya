@@ -200,7 +200,22 @@ def play_game():
 
 
 def ask_questions(topic, difficulty, question_num):
-    
+    """
+    Ask a question based on the topic, difficulty, and question number, and returns the points based on answer.
+
+    Parameters:
+    ----------
+    topic : str
+    - The category or subject of the question.
+    difficulty : str
+    - The difficulty level of the question.
+    question_num : int
+    - The number of the question within the topic and difficulty level.
+
+    Returns:
+    -------
+    int: The points for correct answer. If correct, returns the points. Otherwise, it returns 0.
+    """
     question = questions[topic][difficulty][question_num]["question"]
     answer = questions[topic][difficulty][question_num]["answer"]
     points = questions[topic][difficulty][question_num]["points"]

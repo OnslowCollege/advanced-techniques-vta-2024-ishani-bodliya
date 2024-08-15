@@ -115,17 +115,18 @@ def ask_difficulty():
 
 def ask_topic(difficulty):
     """
-    Ask user which topic they would like to be quizzed on from Physics, Biology, or Chemistry.
+    Ask user to select a topic based on the chosen difficulty level.
 
-    Arguments:
-    ---------
-    - difficulty: The difficulty of questions set by the user.
-    - asking_topic: States wether program is waiting for a valid answer or not.
+    Args:
+    ----
+    difficulty : str
+        The difficulty level chosen by the user, which may influence the available topics.
 
-    Return:
-    ------
-    - A topic that is converted to uppercases.
-
+    Returns:
+    -------
+    str or None
+        The chosen topic as an uppercase letter ('P' for Physics, 'B' for Biology, 'C' for Chemistry) 
+        if a valid option is selected. Returns None if no valid option is selected.
     """
     asking_topic = True
     while asking_topic:

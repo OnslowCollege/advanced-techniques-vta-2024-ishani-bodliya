@@ -187,10 +187,10 @@ def play_game():
     print(f"Normalized difficulty key: {difficulty_key}")
 
     try:
-        num_questions = len(questions[topic.lower()][difficulty.lower()])
+        questions_num = len(questions[topic_key][difficulty_key])
     except KeyError as e:
         print(f"Question {question_num}")
-        points = ask_questions(topic.key, difficulty.key, question_num)
+        points = ask_questions(topic_key, difficulty_key, question_num)
 
         if points > 0:
             print(f"Correct! + {points} points")

@@ -85,6 +85,13 @@ questions = {
     }
 }
 
+# Alias-to-topic mapping
+alias_to_topic = {
+    "P": "Physics",
+    "C": "Chemistry",
+    "B": "Biology",
+}
+
 # Functions
 def ask_difficulty():
     """

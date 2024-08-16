@@ -183,9 +183,6 @@ def play_game():
     topic_key = topic.lower()
     difficulty_key = difficulty.lower()
 
-    print(f"Normalized topic key: {topic_key}")
-    print(f"Normalized difficulty key: {difficulty_key}")
-
     try:
         num_questions = len(questions[topic_key][difficulty_key])
     except KeyError as e:

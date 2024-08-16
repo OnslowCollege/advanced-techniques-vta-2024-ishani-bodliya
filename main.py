@@ -6,7 +6,6 @@ Date: DATE
 """
 
 # Enter your code here
-import random
 
 questions = {
     "Physics": {
@@ -163,9 +162,9 @@ def uncertain_reward(points):
     - The doubled points if the reward is granted, otherwise 0.
 
     """
-    chance_for_reward = random.choice([True, False])
-    if chance_for_reward:
-        return points * 2
+    import random
+    if random.choice([True, False]):
+        return points
     return 0
 
 

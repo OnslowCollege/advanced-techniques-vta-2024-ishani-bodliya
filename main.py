@@ -187,8 +187,12 @@ def play_game():
     print(f"Normalized difficulty key: {difficulty_key}")
 
     try:
-        questions_num = len(questions[topic_key][difficulty_key])
+        num_questions = len(questions[topic_key][difficulty_key])
     except KeyError as e:
+        print(f"Error: Key not found - {e}")
+        return
+    
+    for question_num in range(1, num_questions + 1):
         print(f"Question {question_num}")
         points = ask_questions(topic_key, difficulty_key, question_num)
 

@@ -180,11 +180,17 @@ def play_game():
     print(f"CHOSEN TOPIC: {topic}")
 
     total_points = 0
-    num_questions = len(questions[topic.lower()][difficulty.lower()])
+    topic_key = topic.lower()
+    difficulty_key = difficulty.lower()
 
-    for question_num in range (1, num_questions + 1):
+    print(f"Normalized topic key: {topic_key}")
+    print(f"Normalized difficulty key: {difficulty_key}")
+
+    try:
+        num_questions = len(questions[topic.lower()][difficulty.lower()])
+    except KeyError as e:
         print(f"Question {question_num}")
-        points = ask_questions(topic.lower(), difficulty.lower(), question_num)
+        points = ask_questions(topic.key, difficulty.key, question_num)
 
         if points > 0:
             print(f"Correct! + {points} points")

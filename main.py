@@ -241,10 +241,18 @@ def ask_questions(topic, difficulty, question_num):
     int: The points for correct answer. If incorrect, returns 0.
     
     """
-    question_info = questions[topic][difficulty][question_num]["question"]
-    user_answer = input(F"{question_info['question']} ").strip()
+    try:
+        question_info = questions[topic][difficulty][question_num]["question"]
+    except KeyError as e:
+        print(f"Error: Question number {question_num} not found - {e}")
+        return 0
+    
+    print(question_info["question"])
+    user_answer = input("Your answer: ").strip()
+
     if user_answer.lower() == question_info["answer"].lower():
         return question_info["points"]
+    
     print(F"Incorrect. The correct answer is: {question_info['answer']}")
     return 0
 

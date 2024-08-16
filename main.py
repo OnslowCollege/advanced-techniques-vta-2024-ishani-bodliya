@@ -18,7 +18,7 @@ questions = {
             5: {"question": "What is the formula for force?", "answer": "mass * acceleration", "points": 10}
         },
         "medium": {
-            1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer:": "Newton's third law", "points": 20},
+            1: {"question": "What law states that for every action there is an equal and opposite reaction?", "answer": "Newton's third law", "points": 20},
             2: {"question": "What is the formula for calculating kinetic energy?", "answer": "1/2 mv^2", "points": 20},
             3: {"question": "What is the SI unit of power?", "answer": "Watt", "points": 20},
             4: {"question": "An object is weightless when its...", "answer": "in freefall", "points": 20},
@@ -69,7 +69,7 @@ questions = {
             5: {"question": "What type of charge does an electron carry?", "answer": "Positive", "points": 10}
         },
         "medium": {
-            1: {"question": "What is the pH of pure water", "answer:": "7", "points": 20},
+            1: {"question": "What is the pH of pure water", "answer": "7", "points": 20},
             2: {"question": "What is the chemical symbol for gold?", "answer": "Au", "points": 20},
             3: {"question": "What type of bond involves the sharing of electron pairs between atoms?", "answer": "Covalent bond", "points": 20},
             4: {"question": "What is the process called when a solid turns directly into a gas?", "answer": "Sublimation", "points": 20},

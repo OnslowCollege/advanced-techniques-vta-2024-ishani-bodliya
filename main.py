@@ -194,7 +194,7 @@ def play_game():
 
     total_points = 0
 
-     num_questions = len(questions[topic][difficulty])
+    num_questions = len(questions[topic][difficulty])
 
     for question_num in range(1, num_questions + 1):
         print(f"Question {question_num}")
@@ -236,7 +236,7 @@ def ask_questions(topic, difficulty, question_num):
     
     """
     try:
-        question_info = questions[topic][difficulty][question_num]["question"]
+        question_info = questions[topic][difficulty][question_num]
     except KeyError as e:
         print(f"Error: Question number {question_num} not found - {e}")
         return 0
@@ -247,7 +247,7 @@ def ask_questions(topic, difficulty, question_num):
     if user_answer.lower() == question_info["answer"].lower():
         return question_info["points"]
     
-    print(F"Incorrect. The correct answer is: {question_info['answer']}")
+    print(f"Incorrect. The correct answer is: {question_info['answer']}")
     return 0
 
 

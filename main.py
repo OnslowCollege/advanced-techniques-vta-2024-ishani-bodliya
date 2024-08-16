@@ -181,7 +181,7 @@ def play_game():
 
     total_points = 0
     num_questions = len(questions[topic.lower()][difficulty.lower()])
-    
+
     for question_num in range (1, num_questions + 1):
         print(f"Question {question_num}")
         points = ask_questions(topic.lower(), difficulty.lower(), question_num)
@@ -193,14 +193,14 @@ def play_game():
             if points_from_reward > 0:
                 print("You won the uncertain reward, your points were doubled")
                 total_points += points_from_reward
-                print(f"Points: {points}")
+                print(f"Total points: {total_points}")
             else:
                 print("You lost the uncertain reward and lost points")
-                total_points -= points
-                print(f"Points: {points}")
+                total_points += points_from_reward
+                print(f"Total points: {total_points}")
         else:
             print("Incorrect answer.")
-    print(f"Game over. Points: {points}")
+    print(f"Game over. Total points: {total_points}")
 
 
 def ask_questions(topic, difficulty, question_num):
@@ -221,13 +221,11 @@ def ask_questions(topic, difficulty, question_num):
     int: The points for correct answer. If incorrect, returns 0.
     
     """
-    question = questions[topic][difficulty][question_num]["question"]
-    answer = questions[topic][difficulty][question_num]["answer"]
-    points = questions[topic][difficulty][question_num]["points"]
-    users_answer = input(question + " ")
-
-    if users_answer.lower() == answer.lower():
-        return points
+    question_info = questions[topic][difficulty][question_num]["question"]
+    user_answer = input(F"{question_info['question']} ").strip()
+    if user_answer.lower() == question_info["answer"].lower():
+        return question_info["points"]
+    print(F"Incorrect. The correct answer is: {question_info['answer']}")
     return 0
 
 

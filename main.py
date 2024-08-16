@@ -180,8 +180,8 @@ def play_game():
     print(f"CHOSEN TOPIC: {topic}")
 
     total_points = 0
-
     num_questions = len(questions[topic.lower()][difficulty.lower()])
+    
     for question_num in range (1, num_questions + 1):
         print(f"Question {question_num}")
         points = ask_questions(topic.lower(), difficulty.lower(), question_num)

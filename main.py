@@ -147,6 +147,12 @@ def ask_topic(difficulty):
     return None
 
 
+def get_topic_key(user_input):
+    """Get the actual topic key from the user input using alternative names."""
+    user_input = user_input.strip().capitalize()
+    return alias_to_topic.get(user_input, None)
+
+
 def uncertain_reward(points):
     """
     Determine whether player gets a reward or no reward.

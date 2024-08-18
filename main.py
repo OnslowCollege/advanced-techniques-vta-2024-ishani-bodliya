@@ -369,7 +369,8 @@ def play_game():
             points = points * 2
             print(f"Correct! + {points} points")
             total_points += points
-            
+
+            # If it isn't the last question, ask if they want to gamble on the next question
             if question_num != num_questions:
                 print(
                     """Do you want to bet your points on answering the next question correct?

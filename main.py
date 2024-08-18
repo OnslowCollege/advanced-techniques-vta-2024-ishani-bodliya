@@ -352,6 +352,7 @@ def play_game():
     topic = ask_topic()
     print(f"CHOSEN TOPIC: {topic}")
 
+
     total_points = 0
     do_gamble = False
 

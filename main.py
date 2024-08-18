@@ -399,6 +399,8 @@ Answering correctly will give double points while answering incorrect will loose
 Answering correctly will give double points while answering incorrect will loose you as many points as you would have gained."""
                 )
                 print("-----------------------------")
+
+                # Asks user for their answer
                 user_input = input("Type Y to bet, N to not: ").upper()
                 if user_input in ["Y", "N"]:
                     print("-----------------------------")

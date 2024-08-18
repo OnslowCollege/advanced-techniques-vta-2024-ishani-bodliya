@@ -410,6 +410,7 @@ Answering correctly will give double points while answering incorrect will loose
         elif points == 0 and do_gamble:
             points = questions[topic][difficulty][question_num]["points"]
             print(f"You lose {points} points")
+            print("-----------------------------")
             total_points -= points
 
             # Reset gambling option to False after a loss

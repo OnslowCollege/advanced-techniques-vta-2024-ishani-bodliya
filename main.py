@@ -362,8 +362,8 @@ def play_game():
 
     # Prints the questions based off the set topic and difficulty
     for question_num in range(1, num_questions + 1):
-        print(f"Question {question_num}")
-        print(f"Current points {total_points}")
+        print(f"Question: {question_num}")
+        print(f"Current points: {total_points}")
         # Ask the current question and store the points awarded
         points = ask_questions(topic, difficulty, question_num)
         # If the user answered correctly and has chosen to gamble

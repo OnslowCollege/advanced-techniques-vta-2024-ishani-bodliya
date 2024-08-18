@@ -281,8 +281,10 @@ def ask_difficulty():
         print("   Easy    Medium    Hard   ")
         print("-----------------------------")
         difficulty = input("Type here (E, M, H): ").upper()
+        # Checks if the difficulty which is inputted is valid or not
         if difficulty in ["E", "M", "H"]:
             asking_difficulty = False
+            # Checks which valid input was typed in and returns the set of questions to the user
             match difficulty:
                 case "E":
                     return "easy"

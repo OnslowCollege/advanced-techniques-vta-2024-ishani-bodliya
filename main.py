@@ -352,10 +352,10 @@ def play_game():
     topic = ask_topic()
     print(f"CHOSEN TOPIC: {topic}")
 
-
     total_points = 0
     do_gamble = False
 
+    # Get the total number of questions based on the chosen topic and difficulty
     num_questions = len(questions[topic][difficulty])
 
     # Prints the questions based off the set topic and difficulty

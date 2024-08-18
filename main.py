@@ -403,8 +403,10 @@ Answering correctly will give double points while answering incorrect will loose
                     print("-----------------------------")
                     print("")
                     do_gamble = True
-                else:
+                elif input.upper() == "N":
                     do_gamble = False
+                else:
+                    print("That is an invalid input, Try again")
 
         # If the user answered incorrectly and had gambled, deduct points
         elif points == 0 and do_gamble:

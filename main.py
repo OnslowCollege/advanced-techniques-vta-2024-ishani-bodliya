@@ -320,6 +320,7 @@ def ask_topic():
         # Asks user for topic to get quizzed on.
         print("Choose a topic in science: ")
         print("-----------------------------")
+        # Prints valid options for users.
         print(" Physics  Biology  Chemistry")
         print("-----------------------------")
         # Sets the topic

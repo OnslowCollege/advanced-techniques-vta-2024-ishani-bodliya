@@ -342,11 +342,13 @@ def ask_topic():
 def play_game():
     """Start asking question when user picks play button."""
     print("----------- PLAY -----------")
+    # Asks and prints the set difficulty
     difficulty = ask_difficulty()
     print(f"CHOSEN DIFFICULTY: {difficulty}")
     print("-----------------------------")
     print(" ")
 
+    # Asks and prints the set topic
     topic = ask_topic()
     print(f"CHOSEN TOPIC: {topic}")
 
@@ -355,6 +357,7 @@ def play_game():
 
     num_questions = len(questions[topic][difficulty])
 
+    # Prints the questions based off the set topic and difficulty
     for question_num in range(1, num_questions + 1):
         print(f"Question {question_num}")
         print(f"Current points {total_points}")

@@ -438,6 +438,7 @@ def ask_questions(topic, difficulty, question_num):
 
     # Display the question to the user.
     print(question_info["question"])
+    print("-------------")
     user_answer = input("Your answer: ").strip()
     answer = question_info["answer"].lower()
     # Compares user's answer with the correct answer, ignoring case and spaces.

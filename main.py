@@ -428,17 +428,22 @@ def ask_questions(topic, difficulty, question_num):
 
     """
     try:
+        # Gets the question info using the topic, difficulty, and question number.
         question_info = questions[topic][difficulty][question_num]
     except KeyError as e:
+        # If the question number doesn't exist, prints error message and return 0 points.
         print(f"Error: Question number {question_num} not found - {e}")
         return 0
 
+    # Display the question to the user.
     print(question_info["question"])
     user_answer = input("Your answer: ").strip()
     answer = question_info["answer"].lower()
+    # Compares user's answer with the correct answer, ignoring case and spaces.
     if user_answer.lower().replace(" ", "") == answer.replace(" ", ""):
         return question_info["points"]
 
+    # If answer is incorrect, shows the correct answer and returns 0 points.
     print(f"Incorrect. The correct answer is: {question_info['answer']}")
     return 0
 

@@ -350,6 +350,7 @@ def play_game():
 
     # Asks and prints the set topic
     topic = ask_topic()
+    print("-------------")
     print(f"CHOSEN TOPIC: {topic}")
 
     total_points = 0

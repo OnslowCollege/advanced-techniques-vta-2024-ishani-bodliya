@@ -376,8 +376,11 @@ def play_game():
                     """Do you want to bet your points on answering the next question correct?
 Answering correctly will give double points while answering incorrect will loose you as many points as you would have gained."""
                 )
+
+                # Check if the user wants to gamble on the next question
                 if input("Type Y for to bet, anything else to not: ").upper() == "Y":
                     do_gamble = True
+                # If the user answered correctly and has not chosen to gamble
                 else:
                     do_gamble = False
         elif points > 0:

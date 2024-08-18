@@ -281,6 +281,7 @@ def ask_difficulty():
         print("-----------------------------")
         print("   Easy    Medium    Hard   ")
         print("-----------------------------")
+        # Sets the topic
         difficulty = input("Type here (E, M, H): ").upper()
         # Checks if the difficulty which is inputted is valid or not
         if difficulty in ["E", "M", "H"]:
@@ -323,6 +324,7 @@ def ask_topic():
         print("-----------------------------")
         # Sets the topic
         topic = input("Type here (P, B, C): ").upper()
+        # Checks if the difficulty which is inputted is valid or not
         if topic in ["P", "B", "C"]:
             asking_topic = False
             match topic:

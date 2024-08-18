@@ -401,13 +401,14 @@ Answering correctly will give double points while answering incorrect will loose
                 print("-----------------------------")
 
                 # Asks user for their answer
-                user_input = input("Type Y to bet, N to not: ").upper()
-                if user_input in ["Y", "N"]:
-                    print("-----------------------------")
-                    print("")
-                    do_gamble = (user_input == "Y")
-                    break
-                print("Invalid input. Please type 'Y' to bet or 'N' to not.")
+                while True:
+                    user_input = input("Type Y to bet, N to not: ").upper()
+                    if user_input in ["Y", "N"]:
+                        print("-----------------------------")
+                        print("")
+                        do_gamble = (user_input == "Y")
+                        break
+                    print("Invalid input. Please type 'Y' to bet or 'N' to not.")
 
         # If the user answered incorrectly and had gambled, deduct points
         elif points == 0 and do_gamble:

@@ -402,8 +402,10 @@ Answering correctly will give double points while answering incorrect will loose
             points = questions[topic][difficulty][question_num]["points"]
             print(f"You lose {points} points")
             total_points -= points
-            do_gamble = False
 
+            # Reset gambling option to False after a loss
+            do_gamble = False
+    # End of the game: Display the total points
     print(f"Game over. Total points: {total_points}")
 
 

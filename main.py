@@ -7,6 +7,7 @@ Date: 16/08/24
 
 # Enter your code here
 
+# Dictoonary with questions sorted by Topic (Physics, Biology, Chemistry) - Difficulty (Easy, Medium, Hard)
 questions = {
     "Physics": {
         "easy": {

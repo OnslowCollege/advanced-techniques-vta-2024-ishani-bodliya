@@ -362,11 +362,14 @@ def play_game():
     for question_num in range(1, num_questions + 1):
         print(f"Question {question_num}")
         print(f"Current points {total_points}")
+        # Ask the current question and store the points awarded
         points = ask_questions(topic, difficulty, question_num)
+        # If the user answered correctly and has chosen to gamble
         if points > 0 and do_gamble:
             points = points * 2
             print(f"Correct! + {points} points")
             total_points += points
+            
             if question_num != num_questions:
                 print(
                     """Do you want to bet your points on answering the next question correct?
